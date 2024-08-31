@@ -20,7 +20,7 @@ const HomePage = () => {
         <div className="logo">
           <img
             className="pokedex"
-            src="../../public/images/pokedexHome.png"
+            src="../../images/pokedexHome.png"
             alt="pokedex"
           />
         </div>

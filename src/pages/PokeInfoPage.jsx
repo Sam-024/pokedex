@@ -18,11 +18,7 @@ const PokeInfoPage = () => {
     <div>
       <header>
         <div className="header-container">
-          <img
-            src="../../public/images/pokedex.png"
-            alt="pokedex"
-            className="logo"
-          />
+          <img src="../../images/pokedex.png" alt="pokedex" className="logo" />
         </div>
         <div className="pokeball"></div>
       </header>
