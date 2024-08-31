@@ -1,0 +1,93 @@
+header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.logo {
+    width: 200px; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: auto;
+     
+}
+
+.pokeball {
+    width: 3em;
+    height: 3em;
+    background-color: white;
+    border: 0.25em solid black;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 0 0.5em red;
+}
+
+.pokeball::before, .pokeball::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pokeball::before {
+    width: 80%;
+    height: 0.25em;
+    background-color: black;
+}
+
+.pokeball::after {
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    border: 0.25em solid black;
+    border-radius: 50%;
+}
+
+.welcome-trainer{
+    color: red;
+}
+.search-bar{
+    padding-left: 1.45em;
+    padding-bottom: 1.45em;
+    
+}
+.search-bar input {
+    background-color: #F5F5F5;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    background-color: #D32F2F;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #B71C1C;
+}
+
+.types{
+    padding-left: 1.45em;
+    padding-bottom: 1.45em;
+}
+
+.pokemons-container{
+    flex-wrap:wrap ;
+    gap: 2em;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
